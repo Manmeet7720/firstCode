@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 60px;
+        height: 500px;
+        width: 700px;
+    }
+    h2{
+        color: white;
+        margin-top: 150px;
+    }
+    button{
+        background-color: blue;
+        color: white;
+        height: 40px;
+        width: 250px;
+        border-radius: 10px 10px 10px 10px;
+        cursor: pointer;
+    }
+    input{
+        height: 40px;
+        width: 250px;
+    }
+
+</style>
+<body>
+    <div class="row" >
+        <div class="search">
+            <h2>Search Contacts</h2>
+            <input type="text" placeholder="Enter the name of contact"><BR><br>
+            <button>SUBMIT</button>
+        </div>
+        <div class="contact">
+            <h2>Add a new contact</h2>
+            <input type="text" placeholder="narayan"><BR><br>
+            <input type="text" placeholder="12345678"><BR><br>
+            <input type="text" placeholder="narayan@gmail.com"><BR><br>
+            <button>SUBMIT</button>
+        </div>
+    </div>
+</body>
+</html>
